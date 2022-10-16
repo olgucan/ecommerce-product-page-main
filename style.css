@@ -1,0 +1,267 @@
+.main {
+    margin-top:100px;
+    padding:0px 210px;
+    
+}
+.fixed {
+    position: fixed;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+.left {
+   position: fixed;
+   left: 30%;
+   top: 35%;
+   color: #ccc;
+   z-index: 1000;
+   font-size: 50px;
+   text-decoration: none;
+}
+.right {
+   position: fixed;
+   right: 30%;
+   top: 35%;
+   z-index: 1000;
+   color: #ccc;
+   font-size: 50px;
+   
+}
+.left:hover , .right:hover {
+    color: wheat;
+    text-decoration: none;
+}
+.sepet {
+    position: relative;
+}
+.emptydiv {
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    right: 30px;
+    z-index: 100;
+}
+a {
+    cursor: pointer;
+}
+.paketdiv {
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    padding: 20px 20px;
+    border-radius: 15px;
+    background-color: antiquewhite;
+  
+
+}
+.paketdiv button {
+    border-radius: 10px;
+    background-color: coral;
+    color: white;
+    width: 100%;
+    border: none;
+}
+.topdiv {
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 1px solid #000;
+}
+i {
+    cursor: pointer;
+}
+.myimg3 {
+    width: 40px;
+}
+
+.circle {
+    width: 25px;
+    height: 25px;
+    bottom: -25px;
+    right: 0;
+    background-color: turquoise;
+    color: white;
+    position: absolute;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+.mydiv3 {
+    width: 360px;
+    
+    display: flex;
+   
+    flex-wrap: wrap;
+    
+}
+.small {
+    width: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.big  {
+   width: 350px;
+   border-radius: 10px;
+}
+.actived {
+    display: none;
+}
+
+.avatar img {
+    width: 50px;
+}
+.mark {
+    cursor: pointer;
+}
+.newdiv {
+    display: flex;
+    position: absolute;
+    top: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px;
+    width: 75%;
+    height: 100vh;
+    background-color: white;
+    z-index: 5000;
+}
+.paketdiv {
+    /*border: 1px solid ;*/
+    z-index: 100000;
+    
+}
+.remove {
+    display: none;
+}
+
+.card {
+    width: 28rem;
+}
+.car-front {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    z-index: 5000;
+  
+}
+.tuss {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.card-body img {
+    width: 80px;
+}
+.card-img-top {
+    border-radius: 15px !important;
+    cursor: pointer;
+}
+@media screen and (max-width: 954px) {
+    .main {
+        margin-top:50px;
+        
+    }
+    .tuss {
+        justify-content: space-around;
+
+    }
+    .tuss button {
+        display: block;
+        margin-top: 15px;
+        width: 100%!important;
+        margin-bottom: 100px;
+    }
+
+  }
+  /*style="width: 18rem;border: none;*/
+  
+  @media screen and (max-width: 540px) {
+      .main {
+        overflow: hidden;
+      }
+      .son h1 {
+          font-size: 22px;
+      }
+      .son p {
+          font-size: 14px;
+      }
+      .card {
+          width:100%;
+      }
+        .card-img-top {
+            margin-right:0 !important ;
+            width: 100% !important;
+            border-radius: 0px !important;
+        }
+        .container-fluid {
+                    width: 100%;
+            padding-right: 0px !important;
+            padding-left: 0px !important;
+            margin-right: auto;
+            margin-left: auto;  
+        }
+        .son {
+            padding: 50px 28px !important;
+        }
+        .navbar {
+            
+                position: relative;
+                display: -ms-flexbox;
+                display: flex;
+              
+                flex-wrap: nowrap;
+                -ms-flex-align: center;
+                align-items: flex-start;
+                -ms-flex-pack: justify;
+                padding: .5rem 1rem;
+                justify-content: space-between;
+                flex-direction: row;
+            
+        }
+        .navbar-toggler-icon{
+            font-size: 15px;
+        }
+        .avatar img {
+            width: 20px;
+        }
+
+        .dolar {
+            display: flex;
+            justify-content: space-around;
+            margin: 30px 0;
+        }
+        /* .dolar span, .dolar a , u {
+            display: none ;
+        } */
+      
+        /* .container.keser {
+            margin-right:0 !important ;
+             margin: 0px !important;;
+             padding: 4px !important;
+        }
+       
+        .col-12 {
+            padding-right: 0px !important;
+            padding-left: 0px !important;
+        }
+        .row {
+            margin: 0 !important;
+            padding: 0 !important;
+        } */
+        .big {
+           
+           display: block;
+            
+        }
+      
+    }
+
+  

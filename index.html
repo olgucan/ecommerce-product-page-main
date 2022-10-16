@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+ <link rel="stylesheet" href="./style.css">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous"></head>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <body>
+   <div class="container-fluid">
+      <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light "style="border-bottom: 1px solid #eee">
+         <button class="navbar-toggler" type="button" >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+         <a class="navbar-brand" href="#"><img src="./images/logo.svg" alt="" class="img-fluid"></a>
+        
+       
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav mr-lg-auto">
+             <li class="nav-item ">
+               <a class="nav-link" href="#">Collections <span class="sr-only">(current)</span></a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#">Men</a>
+             </li>
+             <li class="nav-item ">
+               <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                 Women
+               </a>
+              
+             </li>
+             <li class="nav-item">
+               <a class="nav-link ">About</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link ">Contact</a>
+             </li>
+           </ul>
+         
+           
+            
+          
+         </div>
+         <div>
+            <a  class="mr-lg-3 sepet"><img src="./images/icon-cart.svg" alt="" class="img-fluid"></a> 
+             <a  class="avatar"><img src="./images/image-avatar.png" alt="" class="img-fluid" > </a>  
+            </div>
+       </nav>
+      </div>
+      </div>
+      <div class="container-fluid main">
+         <div class="container keser">
+            <div class="row">
+               <div class="col-lg-6 col-12 cardolgu" >
+                  <div class="card" style="border: none;" >
+                     <img src="./images/image-product-1.jpg" class="card-img-top " alt="...">
+                     <div class="card-body  px-0 d-none d-sm-block"  style="display: flex;justify-content: space-between;">
+                      <a  class="btn  "><img src="./images/image-product-1-thumbnail.jpg" alt="" class="img-fluid rounded-sm"></a>
+                      <a  class="btn "><img src="./images/image-product-2-thumbnail.jpg" alt="" class="img-fluid rounded-sm"></a>
+                      <a  class="btn "><img src="./images/image-product-3-thumbnail.jpg" alt="" class="img-fluid rounded-sm"></a>
+                      <a  class="btn  "><img src="./images/image-product-4-thumbnail.jpg" alt="" class="img-fluid rounded-sm"></a>
+                     </div>
+                   </div>
+               </div>
+               <div class="col-lg-6 col-12 son">
+                    <h6 style="color:hsl(26, 100%, 55%);" class="text-uppercase">Sneaker Company</h6>
+                    <h1>Fall Limited Edition Sneakers</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque cum recusandae libero fugiat blanditiis expedita.</p>
+                    <div class=" dolar"> 
+                      <div class="d-flex"><span class="display-5 mr-lg-3" style="font-weight: 600;"><h2>$125.00</h1></span> <a class="btn btn-sm i" style="background-color: hsl(25, 100%, 94%);color: hsl(26, 100%, 55%);font-weight: 700;height: 40px;">50%</a></div> 
+                    
+                        <p><u class="text-muted display-6">$250.00</u></p>
+                  </div>
+                 
+                  <div>
+                    <div class="tuss">
+                     <a  class="btn minus" style=" background-color: #e7e0e0;color: hsl(26, 100%, 55%);font-weight: 700;"><i class="fa-solid fa-minus"></i></a>
+                     <a  class="btn mx-2 number" style="background-color: #e7e0e0;">0</a>
+                     <a  class="btn mr-2 plus" style="background-color: #e7e0e0;color: hsl(26, 100%, 55%);"><i class="fa-solid fa-plus"></i></a>
+                     <button class="btn ekle" style="background:hsl(26, 100%, 55%);color: white;font-size: 14px; width: 50%;"><i class="fa-solid fa-cart-shopping mr-3"></i>Add to The Card</button>
+                    </div>
+                    
+                       
+                   
+                  </div>
+            </div>
+         </div>
+      </div>
+  
+     <script src="./app.js"></script>
+</body>
+</html>
